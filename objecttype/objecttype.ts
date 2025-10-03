@@ -14,6 +14,8 @@ obj3 = {
 
 let obj4:{name: string; age: number } = { name: "Hoang Quoc Bao", age: 22 };
 
+// obj4.address = "Ha Noi"; // Error: Property 'address' does not exist on type '{ name: string; age: number; }'
+
 console.log("obj1", obj1);
 console.log("obj2", obj2);
 console.log("obj3", obj3);
