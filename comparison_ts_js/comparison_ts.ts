@@ -1,5 +1,4 @@
 // Ts is Static typeing type
-
 const sum3 = (x: number, y: number) => x + y;
 
 // error
