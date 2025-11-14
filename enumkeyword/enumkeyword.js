@@ -18,4 +18,3 @@ var User_Role;
 var userRole1 = User_Role.ADMIN;
 var userRole2 = User_Role.USER;
 console.log("User Role 1: ".concat(userRole1, ", User Role 2: ").concat(userRole2)); // ADMIN, USER 
-var userRole3 = ADMIN;
