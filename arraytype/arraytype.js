@@ -1,20 +1,14 @@
 // TypeScript array type 
-const tsarr: number[] = [1, 2, 3];
+var tsarr = [1, 2, 3];
 tsarr.push(4);
-console.log(tsarr + `type: ${typeof tsarr}`);
-
+console.log(tsarr + "type: ".concat(typeof tsarr));
 // Typescript mix stypes in array
-const mixarr: (number | string | boolean)[] = [1, 'two', true];
+var mixarr = [1, 'two', true];
 console.log(mixarr);
-
 // Typescript array using generic array type
-const genarr: Array<number> = [10, 20, 30];
+var genarr = [10, 20, 30];
 genarr.push(40);
 console.log(genarr);
-
 // Typescript assigning array type 
-const assignarr = [1, "hello"];
+var assignarr = [1, "hello"];
 console.log(assignarr);
-
-
-
